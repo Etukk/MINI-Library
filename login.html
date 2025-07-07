@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <link rel="stylesheet" href="./css/reset.css"/>
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>ბიბლიოთეკა</title>
+</head>
+<body>
+    <nav class="navbar">
+        <img class="logo" src="./images/mini-library.png" alt="logo" />
+        <div class="burger" id="burger">&#9776;</div>
+        <ul class="nav-links">
+            <li><a href="./index.html">მთავარი</a></li>
+            <li><a href="./about.html">ჩვენ შესახებ</a></li>
+            <li><a href="./contact.html">კონტაქტი</a></li>
+            <li><a href="./login.html">Log In</a></li>
+        </ul>
+    </nav>
+    <section>
+        
+    </section>
+    
+    <section id="register">
+        <div class="box">
+            <p>გაიარეთ რეგისტრაცია, რათა არ გამოტოვოთ ახლადდამატებული წიგნები!📚 </p>
+        </div>
+        <div class="login">
+            
+            <h2>რეგისტრაცია</h2>
+                 
+            <form id="registerForm">
+                <label>სახელი:
+                    <input type="text" id="name">
+                </label>
+                <br>
+
+                <label>ელ.ფოსტა:
+                    <input type="email" id="email">
+                </label>
+                <br>
+
+                <label>პაროლი:
+                    <input type="password" id="password">
+                    <span id="togglePassword" style="cursor:pointer;"></span>
+                </label>
+                <br>
+
+                <button type="submit">გაგზავნა</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>

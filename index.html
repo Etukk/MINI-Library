@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian&display=swap" rel="stylesheet">
+
+
+  <title>ბიბლიოთეკა</title>
+</head>
+<body>
+  <nav class="navbar">
+    <img class="logo" src="./images/mini-library.png" alt="logo" />
+    <div class="burger" id="burger">&#9776;</div>
+    <ul class="nav-links">
+      <li><a href="./index.html">მთავარი</a></li>
+      <li><a href="./about.html">ჩვენ შესახებ</a></li>
+      <li><a href="./contact.html">კონტაქტი</a></li>
+      <li><a href="./login.html">Log In</a></li>
+
+      
+    </ul>
+  </nav>
+
+  <main class="main">
+    <header>
+      <h1>📚 MINI-ბიბლიოთეკა 📚</h1>
+      <p><strong>შეარჩიე ავტორი და გაეცანი მის ნაწარმოებებს</strong></p>
+    </header>
+
+    <section class="authors">
+      <h1>❝ქართველი ავტორები❞</h1>
+      <div class="author-list">
+        <button><a href="./აკაკი წერეთელი.html" class="akaki">აკაკი წერეთელი</a></button>
+        <button><a href="./ილია ჭავჭავაძე.html" class="ilia">ილია ჭავჭავაძე</a></button>
+        <button><a href="./აკა მორჩილაძე.html" class="aka">აკა მორჩილაძე</a></button>
+        <button><a href="./ალექსანდრე ყაზბეგი.html" class="aleksandre">ალექსანდრე ყაზბეგი</a></button>
+        <button><a href="./გოდერძი ჩოხელი.html" class="goderzi">გოდერძი ჩოხელი</a></button>
+        <button><a href="./გურამ დოჩანაშვილი.html" class="guram">გურამ დოჩანაშვილი</a></button>
+      </div>
+
+      <h1>❝უცხოელი ავტორები❞</h1>
+      <div class="author-list">
+        <button><a href="./william faulkner.html" class="william">William Faulkner</a></button>
+        <button><a href="./fyodor dostoevsky.html" class="fyodor">Fyodor Dostoevsky</a></button>
+        <button><a href="./agatha christie.html" class="agatha">Agatha Christie</a></button>
+        <button><a href="./antonie de saint-exupery.html" class="antonie">Antoine de saint-exupery</a></button>
+        <button><a href="./victor hugo.html" class="victor">Victor Hugo</a></button>
+        <button><a href="./leo tolstoy.html" class="leo">Leo Tolstoy</a></button>
+      </div>
+    </section>
+
+  </main>
+
+  <div id="cookieBanner">
+    <p>ეს ვებგვერდი იყენებს cookies.🍪</p>
+    <button id="acceptCookies">გასაგებია</button>
+  </div>
+
+
+  <button id="scrollTopBtn" title="თავზე დაბრუნება">⬆</button>
+
+
+  <section id="reviews">
+    <h2>📢 მკითხველების შეფასებები</h2>
+    <div id="reviewBox"></div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2025 ბიბლიოთეკა. ყველა უფლება დაცულია.</p>
+    </div>
+  </footer> 
+
+  <script src="./script.js"></script>
+
+</body>
+</html>
