@@ -75,7 +75,7 @@ header p {
   color:black;
 }
 .main {
-  background-image: url("./images/464_konstitucia.jpg");
+  background-image: url("/images/464_konstitucia.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
